@@ -1,51 +1,66 @@
-<!DOCTYPE html>halaman 1
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>websaya</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Agus Tiranda - Portofolio Pribadi</title>
+    <link rel="stylesheet" href="inisaya.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>WEBSITE PRIBADI</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Beranda</a></li>
-            </ul>
-        </nav>
+
+    <header class="main-header">
+        <h1 class="site-title">Galeri</h1>
+        <p class="tagline">Desain logo | Fotografer | Penulis</p>
     </header>
 
-    <section id="home">
-        <h2>Kembali kemasa yang tiada tara</h2>
-        <p>belum selesai kah? masih ada sesuatu yang harus di ungkapkan? sehingga turunnya kerap membawa keributan, teranglah bahkan dengan keadaan yang amat gelap, untuk apa bersembunyi di antara putihnya warna, seperti apa kesedihan mu? sampai semuanya harus menahan kesakitannya, tunjukan kepadanya kesedihan mu yang mendalam ini.</p>
-    </section>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#tentang">Tentang Saya</a></li>
+            <li><a href="#proyek">Proyek</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
 
-    <section id="products">
-        <h2>Ini saya...</h2>
-        <div class="product">
-            <img src="saya 1.jpg" alt="Deskripsi gambar" width="300" height="auto">
-            <h3>Ig saya</h3>
-            <p>Ig. ags.trd</p>
-            <button onclick="addToCart"('instagram/@ags.trd', 100000)">Instagram</button>
-        </div>
-        <div class="product">
-            <img src="saya 2.jpg" alt="Deskripsi gambar" width="300" height="auto">
-            <h3>tiktok saya</h3>
-            <p>tiktok. uhuih11</p>
-            <button onclick="addToCart('tiktok.com/@uhuiih11', 200000)">Tiktok</button>
-        </div>
-    </section>
+    <main class="content-container">
+        
+        <section id="tentang" class="section">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="bio-content">
+                <img src="inisaya1.jpg" alt="Foto Profil" class="profile-photo">
+                <p>Halo, nama saya Agus Tiranda. Saya hanya seorang Mahasiswa Psikologi di salah satu Universitas yang ada di Padang, Sumatera Barat. Saya tertarik di dunia fotografi saat saya berada di kelas 3 SLTA, mulai. memperlajari color grading dan objek yang akan di ambil. Saya juga tertarik di dalam bidang menulis, terlebihnya menulis puisi dan cerpen, awalnya saya hanya.menyukai hal-hal kecil dalam penulisan dan bagaimana awal dari suatu tulisan bisa berpengaruh terhadap seseorang dan saya memdapatkan itu semua, ketenangan dan keindahan di dalam tulisan.  Saya percaya pada keindahan desain yang sederhana dan fungsional. Silakan telusuri karya-karya saya di bawah.</p>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Disinii aja</h2>
-        <p>Email: agustrd8@gmail.com</p>
-    </section>
+        <section id="proyek" class="section">
+            <h2 class="section-title">Proyek</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="inisaya2.png" alt="Proyek 1">
+                    <h3>Logo sendiri</h3>
+                    <p>Ini adalah salah satu bentuk saya menyukai bidang didalam dunia Desain logo.</p>
+                </div>
+                <div class="project-item">
+                    <img src="inisaya3.jpg" alt="Proyek 2">
+                    <h3>Fotografi</h3>
+                    <p>Salah satu karya foto saya yang di ambil dengan pemandangan senja yang menajubkan.</p>
+                </div>
+                </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2025 Semua hak dilindungi.</p>
+        <section id="kontak" class="section">
+            <h2 class="section-title">Kontak</h2>
+            <p>Anda dapat menghubungi saya melalui email di: <a href="mailto:emailanda@contoh.com">agustrd8@gmail.com</a></p>
+            <div class="social-links">
+                <a href="#">Website</a> | <a href="#">GitHub</a> | <a href="#">Instagram</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Aguiih. Hak Cipta Dilindungi.</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
